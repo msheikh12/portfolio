@@ -25,7 +25,9 @@
         "drupal/social_media_links": "^2.2",
         "drupal/features": "^3.5",
         "drupal/cog": "^1.7",
-        "drupal/bootstrap": "^3.3"
+        "drupal/bootstrap": "^3.3",
+        "drupal/webform": "^5.0@beta",
+        "drupal/admin_toolbar": "^1.19"
     },
     "require-dev": {
         "behat/mink": "~1.7",
