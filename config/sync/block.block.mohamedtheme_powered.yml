@@ -1,0 +1,22 @@
+uuid: ed3a2ddc-5996-4150-8182-46e99f79b5a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mohamedtheme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: mohamedtheme_powered
+theme: mohamedtheme
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
