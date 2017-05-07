@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - mohamedtheme
+    - proj_me_theme
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: mohamedtheme_account_menu
-theme: mohamedtheme
+id: proj_me_theme_account_menu
+theme: proj_me_theme
 region: navigation
 weight: -5
 provider: null

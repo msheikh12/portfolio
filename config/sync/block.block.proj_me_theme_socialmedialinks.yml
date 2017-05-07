@@ -5,9 +5,9 @@ dependencies:
   module:
     - social_media_links
   theme:
-    - mohamedtheme
-id: mohamedtheme_socialmedialinks
-theme: mohamedtheme
+    - proj_me_theme
+id: proj_me_theme_socialmedialinks
+theme: proj_me_theme
 region: footer
 weight: -7
 provider: null

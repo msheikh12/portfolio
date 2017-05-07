@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - mohamedtheme
+    - proj_me_theme
 _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: mohamedtheme_local_tasks
-theme: mohamedtheme
+id: proj_me_theme_local_tasks
+theme: proj_me_theme
 region: content
 weight: -5
 provider: null

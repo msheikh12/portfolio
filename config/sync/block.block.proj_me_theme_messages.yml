@@ -5,11 +5,11 @@ dependencies:
   module:
     - system
   theme:
-    - mohamedtheme
+    - proj_me_theme
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: mohamedtheme_messages
-theme: mohamedtheme
+id: proj_me_theme_messages
+theme: proj_me_theme
 region: highlighted
 weight: -7
 provider: null
