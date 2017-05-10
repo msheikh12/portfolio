@@ -6366,19 +6366,19 @@ p:last-child,
   top: 9px; }
 
 .fa-facebook {
-  background-color: #37293a;
+  background-color: #bf5829;
   border-radius: 15%;
-  color: #bf5829; }
+  color: #37293a; }
 
 .fa-twitter {
-  background-color: #37293a;
+  background-color: #bf5829;
   border-radius: 35%;
-  color: #bf5829; }
+  color: #37293a; }
 
 .fa-linkedin {
-  background-color: #37293a;
+  background-color: #bf5829;
   border-radius: 15%;
-  color: #bf5829; }
+  color: #37293a; }
 
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -6401,12 +6401,35 @@ p:last-child,
 .menu li:nth-child(3) {
   padding-right: 15px; }
 
-header#navbar {
-  position: relative; }
+.navbar-default .navbar-brand {
+  color: white; }
 
 a.name {
   position: absolute;
   left: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Trebuchet MS";
+  color: white; }
+
+.hero-section {
+  margin-top: 105px;
+  font-family: "Bodoni MT";
+  color: white; }
+
+.call-to-action {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS";
+  color: white; }
+
+.call-to-action p {
+  font-size: 11px; }
+
+header#navbar {
+  position: relative;
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 940px 305px; }
 
 /*# sourceMappingURL=style.css.map */
