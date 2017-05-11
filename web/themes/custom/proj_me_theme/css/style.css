@@ -6329,12 +6329,6 @@ ol, ul {
 .page-header {
   margin-top: 0; }
 
-.footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5; }
-
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
@@ -6354,6 +6348,9 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+body {
+  margin-top: 0; }
 
 .navbar-header {
   float: right; }
@@ -6402,7 +6399,13 @@ p:last-child,
   padding-right: 15px; }
 
 .navbar-default .navbar-brand {
-  color: white; }
+  color: white;
+  margin-top: 20px;
+  font-size: 23px; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none; }
 
 a.name {
   position: absolute;
@@ -6412,24 +6415,45 @@ a.name {
   color: white; }
 
 .hero-section {
-  margin-top: 105px;
+  margin-top: 148px;
   font-family: "Bodoni MT";
   color: white; }
 
-.call-to-action {
-  margin-top: 30px;
-  margin-bottom: 50px;
-  text-transform: uppercase;
+.hero-text {
+  font-size: 46px; }
+
+u {
+  text-decoration: none;
+  border-bottom: .5px solid white; }
+
+.last {
+  font-style: italic; }
+
+.button {
   font-family: "Trebuchet MS";
-  color: white; }
+  padding: 12px 24px;
+  background-color: #cc5902;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 30px; }
 
 .call-to-action p {
   font-size: 11px; }
 
-header#navbar {
-  position: relative;
+#hero {
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
-  background-size: 1140px 301.22px; }
+  height: 468px;
+  background-size: cover; }
+
+.footer {
+  margin-left: none;
+  margin-right: none; }
+
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E5E5E5; }
 
 /*# sourceMappingURL=style.css.map */
