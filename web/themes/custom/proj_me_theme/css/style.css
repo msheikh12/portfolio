@@ -6415,7 +6415,7 @@ a.name {
   color: white; }
 
 .hero-section-border {
-  border-bottom: 1px solid #686868;
+  border-bottom: 1px solid #525252;
   padding-top: 97px; }
 
 .hero-section {
@@ -6436,7 +6436,7 @@ u {
 .button {
   font-family: "Trebuchet MS";
   padding: 12px 24px;
-  background-color: #cc5902;
+  background-color: #bf5829;
   text-transform: uppercase;
   border: none;
   margin-top: 30px; }
@@ -6451,13 +6451,17 @@ u {
   background-size: cover; }
 
 .footer {
-  margin-left: none;
-  margin-right: none; }
-
-.footer {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5; }
+  border-top: 1px solid #525252;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Trebuchet MS"; }
+
+.footer-copyright-year {
+  color: #bf5829; }
 
 /*# sourceMappingURL=style.css.map */

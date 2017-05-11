@@ -152,7 +152,7 @@ a.name {
 
 
 .hero-section-border {
-  border-bottom: 1px solid #686868;
+  border-bottom: 1px solid #525252;
   padding-top: 97px;
 }
 
@@ -183,7 +183,7 @@ u {
 .button {
     font-family: "Trebuchet MS";
     padding: 12px 24px;
-    background-color: #cc5902;
+    background-color: #bf5829;
     text-transform: uppercase;
     border: none;
     margin-top: 30px;
@@ -201,16 +201,25 @@ u {
 }
 
 
-//footer styles
-.footer {
-  margin-left: none;
-  margin-right: none;
-}
-
-// Footer.
 .footer {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #525252;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Trebuchet MS";
 }
+
+
+.footer-copyright-year {
+  color: #bf5829;
+}
+
+// global settings
+$base-color: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-content: #f4f4f3;

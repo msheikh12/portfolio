@@ -57,6 +57,9 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+
+<div id="hero">
+
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -95,15 +98,18 @@
         </div>
       {% endif %}
 
-
+    <div class="hero-section-border"></div>
     <div class="hero-section">
-      <h2 class="hero-text">Digital development </br> & design that is built </br> to last.</h2>
+      <h2 class="hero-text">Digital development </br> <u>&</u> design that is built </br> to <span class="last">last</span>.</h2>
       <div class="call-to-action">
-        <p>get a quote on your project</p>
+        <button class="button" type="button">get a quote on your project</button>
       </div>
     </div>
+    
 
     </header>
+    </div>
+
   {% endblock %}
 {% endif %}
 
@@ -188,10 +194,14 @@
   </div>
 {% endblock %}
 
-{% if page.footer %}
-  {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endblock %}
-{% endif %}
+<footer class="footer {{ container }}" role="contentinfo">
+      {% if page.footer %}
+        {% block footer %}
+            {{ page.footer }}
+        {% endblock %}
+      {% endif %}
+      <div class="footer-copyright">
+      <span class="footer-copyright-year">&#169; {{year}}</span> {{site_name}} all rights reserved
+      </div>
+</footer>
+ 
