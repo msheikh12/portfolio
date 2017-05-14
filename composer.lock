@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0afb147e84fb0c1eb25716e78d9e0ea",
+    "content-hash": "2b430c291e655b2baaa8584f8777e562",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1101,6 +1101,58 @@
             }
         },
         {
+            "name": "drupal/bootstrap_layouts",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap_layouts",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_layouts-8.x-4.1.zip",
+                "reference": null,
+                "shasum": "3f1e7598e9a476e4d396ddc1e49cd2851e948a2c"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/layout_plugin": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1481413087"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "darol100",
+                    "homepage": "https://www.drupal.org/user/2667123"
+                },
+                {
+                    "name": "hctom",
+                    "homepage": "https://www.drupal.org/user/112790"
+                },
+                {
+                    "name": "markcarver",
+                    "homepage": "https://www.drupal.org/user/501638"
+                }
+            ],
+            "description": "This module is going to generate layouts with Bootstrap grid system.",
+            "homepage": "https://www.drupal.org/project/bootstrap_layouts",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bootstrap_layouts"
+            }
+        },
+        {
             "name": "drupal/cog",
             "version": "1.7.0",
             "source": {
@@ -1641,6 +1693,91 @@
             "time": "2017-05-03T17:12:42+00:00"
         },
         {
+            "name": "drupal/ctools",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ctools",
+                "reference": "8.x-3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "302e869ecd1e59fe55663673999fee2ccac5daa8"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0",
+                    "datestamp": "1493401742"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Vanderwater (EclipseGc)",
+                    "homepage": "https://www.drupal.org/u/eclipsegc",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jakob Perry (japerry)",
+                    "homepage": "https://www.drupal.org/u/japerry",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Tim Plunkett (tim.plunkett)",
+                    "homepage": "https://www.drupal.org/u/timplunkett",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "James Gilliland (neclimdul)",
+                    "homepage": "https://www.drupal.org/u/neclimdul",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Daniel Wehner (dawehner)",
+                    "homepage": "https://www.drupal.org/u/dawehner",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "merlinofchaos",
+                    "homepage": "https://www.drupal.org/user/26979"
+                },
+                {
+                    "name": "neclimdul",
+                    "homepage": "https://www.drupal.org/user/48673"
+                },
+                {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+            "homepage": "https://www.drupal.org/project/ctools",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ctools",
+                "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
             "name": "drupal/features",
             "version": "3.5.0",
             "source": {
@@ -1706,6 +1843,201 @@
             "homepage": "https://www.drupal.org/project/features",
             "support": {
                 "source": "http://cgit.drupalcode.org/features"
+            }
+        },
+        {
+            "name": "drupal/layout_plugin",
+            "version": "1.0.0-alpha23",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/layout_plugin",
+                "reference": "8.x-1.0-alpha23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
+                "reference": "8.x-1.0-alpha23",
+                "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha23",
+                    "datestamp": "1476269960"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "David Snopek",
+                    "homepage": "https://www.drupal.org/user/172527"
+                },
+                {
+                    "name": "Bram Goffings",
+                    "homepage": "https://www.drupal.org/user/266527"
+                },
+                {
+                    "name": "Fredrik Lassen",
+                    "homepage": "https://www.drupal.org/user/243377"
+                }
+            ],
+            "description": "An API module to hold the Drupal 8 plugin manager for layouts.",
+            "homepage": "https://www.drupal.org/project/layout_plugin",
+            "keywords": [
+                "layout",
+                "php"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/layout_plugin"
+            }
+        },
+        {
+            "name": "drupal/page_manager",
+            "version": "4.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/page_manager",
+                "reference": "8.x-4.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/page_manager-8.x-4.0-beta2.zip",
+                "reference": null,
+                "shasum": "29a4dda0f068b5df5971eb8319c675cd8e5c78b3"
+            },
+            "require": {
+                "drupal/core": "^8.0.5",
+                "drupal/ctools": "~3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.0-beta2",
+                    "datestamp": "1493410443"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Plunkett",
+                    "homepage": "https://www.drupal.org/u/tim.plunkett",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "dsnopek",
+                    "homepage": "https://www.drupal.org/user/266527"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Provides a way to place blocks on a custom page.",
+            "homepage": "https://www.drupal.org/project/page_manager",
+            "support": {
+                "source": "https://git.drupal.org/project/page_manager.git",
+                "issues": "https://www.drupal.org/project/issues/page_manager",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/panels",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/panels",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/panels-8.x-4.1.zip",
+                "reference": null,
+                "shasum": "cebfa67934408dbd9f181054ec640b1d2ef6ef3e"
+            },
+            "require": {
+                "drupal/core": "^8.3",
+                "drupal/ctools": ">=3.0.0"
+            },
+            "require-dev": {
+                "drupal/page_manager": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1493687591"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jakob Perry",
+                    "homepage": "https://www.drupal.org/u/japerry"
+                },
+                {
+                    "name": "Samuel Mortenson",
+                    "homepage": "https://www.drupal.org/u/samuel.mortenson"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/74958/committers"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "merlinofchaos",
+                    "homepage": "https://www.drupal.org/user/26979"
+                },
+                {
+                    "name": "neclimdul",
+                    "homepage": "https://www.drupal.org/user/48673"
+                },
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                },
+                {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Core Panels display functions; provides no external UI, at least one other Panels module should be enabled.",
+            "homepage": "https://www.drupal.org/project/panels",
+            "support": {
+                "source": "http://git.drupal.org/project/panels.git",
+                "issues": "https://www.drupal.org/project/issues/panels",
+                "irc": "irc://irc.freenode.org/drupal-scotch"
             }
         },
         {
@@ -6217,7 +6549,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/webform": 10
+        "drupal/webform": 10,
+        "drupal/page_manager": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
