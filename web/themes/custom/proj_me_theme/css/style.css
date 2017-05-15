@@ -6423,7 +6423,8 @@ a.name {
   color: white; }
 
 .hero-text {
-  font-size: 46px; }
+  font-size: 46px;
+  font-weight: 600; }
 
 u {
   text-decoration: none;
@@ -6448,6 +6449,43 @@ u {
   background-repeat: no-repeat;
   height: 468px;
   background-size: cover; }
+
+.block-views-blockview-portfolio-block-1 h2.block-title {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  color: #aaaaaa;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-botom: 8px; }
+
+.block-views-blockview-portfolio-block-1 .view-header {
+  color: #382a3b;
+  text-align: center;
+  font-family: "Bodoni MT";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.block-views-blockview-portfolio-block-1 .view-content {
+  text-align: center; }
+
+.view-content .views-row {
+  width: 43%;
+  text-align: center;
+  display: inline-block;
+  margin: 15px; }
+
+.block-views-blockview-portfolio-block-1 .more-link {
+  text-align: center;
+  margin-top: 65px; }
+
+.block-views-blockview-portfolio-block-1 .more-link a {
+  background-color: #bf5829;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 65px;
+  font-family: "Trebuchet MS"; }
 
 .footer {
   margin-top: 45px;

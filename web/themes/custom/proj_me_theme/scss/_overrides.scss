@@ -149,7 +149,9 @@ a.name {
 }
 
 .hero-text {
-    font-size: 46px;
+  font-size: 46px;
+  font-weight: 600;
+
 }
 
 u {
@@ -162,16 +164,16 @@ u {
 }
 
 .button {
-    font-family: "Trebuchet MS";
-    padding: 12px 24px;
-    background-color: #bf5829;
-    text-transform: uppercase;
-    border: none;
-    margin-top: 30px;
+  font-family: "Trebuchet MS";
+  padding: 12px 24px;
+  background-color: #bf5829;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 30px;
 }
 
 .call-to-action p {
-  font-size: 11px;
+font-size: 11px;
 }
 
 #hero {
@@ -179,6 +181,57 @@ u {
   background-repeat: no-repeat;
   height: 468px;
   background-size: cover;
+}
+
+
+
+// global settings
+$base-color: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-content: #f4f4f3;
+
+.block-views-blockview-portfolio-block-1 h2.block-title {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  color: #aaaaaa;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-botom: 8px;
+}
+
+.block-views-blockview-portfolio-block-1 .view-header {
+  color: #382a3b;
+  text-align: center;
+  font-family: "Bodoni MT";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.block-views-blockview-portfolio-block-1 .view-content {
+  text-align: center;
+}
+
+.view-content .views-row {
+  width: 43%;
+  text-align: center;
+  display: inline-block;
+  margin: 15px;
+}
+
+.block-views-blockview-portfolio-block-1 .more-link {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.block-views-blockview-portfolio-block-1 .more-link a {
+  background-color: #bf5829;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 65px;
+  font-family: "Trebuchet MS";
 }
 
 .footer {
@@ -197,9 +250,3 @@ u {
 .footer-copyright-year {
   color: #bf5829;
 }
-
-// global settings
-$base-color: #bf5829;
-$base-grey: #525252;
-$black: #000000;
-$base-content: #f4f4f3;
