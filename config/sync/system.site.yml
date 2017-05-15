@@ -1,11 +1,11 @@
 uuid: 0003034d-1229-4224-8de0-7deb6a4c2f39
-name: 'My Portfolio'
+name: 'Mohamed Sheikh'
 mail: email@site.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
