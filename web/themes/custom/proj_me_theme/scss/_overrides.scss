@@ -163,13 +163,14 @@ u {
   font-style: italic;
 }
 
-.button {
+#hero .button {
   font-family: "Trebuchet MS";
   padding: 12px 24px;
   background-color: #bf5829;
   text-transform: uppercase;
   border: none;
   margin-top: 30px;
+  color: #d6d6d6;
 }
 
 .call-to-action p {
@@ -183,7 +184,12 @@ font-size: 11px;
   background-size: cover;
 }
 
-
+#hero-two {
+  background-image: url(../images/hero-two.jpg);
+  background-repeat: no-repeat;
+  height: 468px;
+  background-size: cover;
+}
 
 // global settings
 $base-color: #bf5829;
@@ -228,17 +234,66 @@ $base-content: #f4f4f3;
 
 .block-views-blockview-portfolio-block-1 .more-link a {
   background-color: #bf5829;
-  color: white;
+  color: #d6d6d6;
   text-transform: uppercase;
   padding: 15px 65px;
   font-family: "Trebuchet MS";
 }
 
-.footer {
-  margin-top: 45px;
+.footer.container {
+  width: 100%;
+  padding: 0;
+}
+
+.region.region-footer {
+  width: 100%;
+}
+
+#block-calltoaction {
+  padding-top: 60px;
+  padding-bottom: 55px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #272727;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 40px;
+  font-weight: 600;
+  width: 100%;
+}
+
+#block-calltoaction .lets-build {
+  margin: 0px 25px;
+  background-color: #bf5829;
+  color: #d6d6d6;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  font-family: "Trebuchet MS";
+  font-size: 15px;
+}
+
+#block-templateprogrammed {
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #525252;
+  text-align: center;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+}
+
+#block-templateprogrammed .debug-academy {
+  color: #f4a742;
+  border-bottom: 1px solid #f4a742;
+  /* text-decoration: underline; */
+}
+
+.footer-copyright {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  border-top: 1px solid #282828;
   text-align: center;
   text-transform: uppercase;
   background-color: #161616;
