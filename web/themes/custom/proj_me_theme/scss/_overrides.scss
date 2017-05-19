@@ -266,6 +266,21 @@ $base-content: #f4f4f3;
     height: auto;
 }
 
+@media only screen and (min-width: 1717px) {
+  
+    .img-responsive {
+      display: inline-block;
+    }
+
+    .block-views-blockview-portfolio-block-1 .views-row {
+      width: 33%;
+      text-align: center;
+      display: inline-block;
+      margin: 11px;
+      margin-bottom: 60px;
+   }
+}
+
 .block-views-blockview-blog-post-block-1 .views-row {
   width: 100%;
   text-align: center;
@@ -276,10 +291,6 @@ $base-content: #f4f4f3;
 
 #blog {
   color: #c2653b;
-}
-
-.block-views-blockview-blog-post-block-1 #blog:hover {
-  color: white;  
 }
 
 .block-views-blockview-blog-post-block-1 .field-content a {
