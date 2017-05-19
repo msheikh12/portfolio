@@ -205,6 +205,17 @@ $base-grey: #525252;
 $black: #000000;
 $base-content: #f4f4f3;
 
+ .main-container.container.js-quickedit-main-content {
+  background-color: #f4f4f3;
+  width: 100%;
+  padding-left: 0px;
+}
+
+
+ .main-container.container.js-quickedit-main-content .row .col-sm-12 {
+  padding: 0px;
+}
+
 .block-views-blockview-portfolio-block-1 h2.block-title {
   font-size: 15px;
   font-family: "Trebuchet MS";
@@ -228,11 +239,12 @@ $base-content: #f4f4f3;
   text-align: center;
 }
 
-.view-content .views-row {
-  width: 43%;
+.block-views-blockview-portfolio-block-1 .views-row {
+  width: 31%;
   text-align: center;
   display: inline-block;
-  margin: 15px;
+  margin: 19px;
+  margin-bottom: 5px;
 }
 
 .block-views-blockview-portfolio-block-1 .more-link {
@@ -247,6 +259,44 @@ $base-content: #f4f4f3;
   text-transform: uppercase;
   padding: 15px 65px;
   font-family: "Trebuchet MS";
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.block-views-blockview-blog-post-block-1 .views-row {
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  font-family: "Trebuchet MS";
+  border-bottom: 1px solid #c1c1c1;
+}
+
+#blog {
+  color: #c2653b;
+}
+
+.block-views-blockview-blog-post-block-1 #blog:hover {
+  color: white;  
+}
+
+.block-views-blockview-blog-post-block-1 .field-content a {
+  color: #382a3b;
+  font-family: "Bodoni MT";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.block-views-blockview-blog-post-block-1 .field-content a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.block-views-blockview-blog-post-block-1 .views-row:hover {
+  color: white;
+  background-image: url(../images/keyboard-orange.jpg);
 }
 
 .footer.container {
