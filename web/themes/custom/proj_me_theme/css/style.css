@@ -6465,6 +6465,13 @@ u {
   height: 468px;
   background-size: cover; }
 
+.block-views-blockabout-me-block-1 {
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  width: 70%;
+  position: relative; }
+
 .main-container.container.js-quickedit-main-content {
   background-color: #f4f4f3;
   width: 100%;

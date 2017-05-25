@@ -205,12 +205,25 @@ $base-grey: #525252;
 $black: #000000;
 $base-content: #f4f4f3;
 
- .main-container.container.js-quickedit-main-content {
-  background-color: #f4f4f3;
-  width: 100%;
-  padding-left: 0px;
+
+// ABOUT ME PAGE
+
+.block-views-blockabout-me-block-1 {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    width: 70%;
+    position: relative;
+
 }
 
+.main-container.container.js-quickedit-main-content {
+    background-color: #f4f4f3;
+    width: 100%;
+    padding-left: 0px;
+}
+
+// BLOG PAGE
 
  .main-container.container.js-quickedit-main-content .row .col-sm-12 {
   padding: 0px;
