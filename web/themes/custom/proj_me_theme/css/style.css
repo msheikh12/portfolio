@@ -6470,12 +6470,85 @@ u {
   display: block;
   margin: 0px auto;
   width: 70%;
-  position: relative; }
+  position: relative;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 55px; }
 
 .main-container.container.js-quickedit-main-content {
   background-color: #f4f4f3;
   width: 100%;
   padding-left: 0px; }
+
+.block-views-blockabout-me-block-1 .views-field-field-headline {
+  position: absolute;
+  top: 25px;
+  text-align: left;
+  width: 40%;
+  left: 200px; }
+
+.block-views-blockabout-me-block-1 .views-field-field-headline .views-label-field-headline {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS"; }
+
+.block-views-blockabout-me-block-1 .views-field-field-headline .field-content {
+  font-family: "Bodoni MT";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-top: 18px;
+  color: #382a3b; }
+
+.block-views-blockabout-me-block-1 .views-field-user-picture {
+  right: 0;
+  float: right;
+  margin-right: 60px;
+  width: 30%;
+  margin-top: 25px; }
+
+.block-views-blockabout-me-block-1 .views-field-user-picture img {
+  border-radius: 50%;
+  width: 40%; }
+
+.block-views-blockabout-me-block-1 .views-field-field-service-skills {
+  padding-top: 30px;
+  padding-right: 75px;
+  text-align: left;
+  width: 25%;
+  margin: 0 auto;
+  float: left;
+  margin-top: 236px;
+  margin-left: 183px; }
+
+.block-views-blockabout-me-block-1 .views-field-field-service-skills .field-content {
+  margin-top: 15px; }
+
+.block-views-blockabout-me-block-1 .views-field-field-service-skills .field-content a {
+  color: #bf5829; }
+
+.block-views-blockabout-me-block-1 .views-label-field-service-skills {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS"; }
+
+.block-views-blockabout-me-block-1 .views-field-field-biography {
+  display: inline-block;
+  width: 48%;
+  margin-right: 115px;
+  padding-top: 42px;
+  padding-right: 44px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 33px; }
+
+.block-views-blockabout-me-block-1 .views-label-field-biography {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS"; }
+
+.block-views-blockabout-me-block-1 .views-field-field-biography .field-content p {
+  color: #868686;
+  margin-top: 13px; }
 
 .main-container.container.js-quickedit-main-content .row .col-sm-12 {
   padding: 0px; }
