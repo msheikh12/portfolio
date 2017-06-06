@@ -186,17 +186,59 @@ font-size: 11px;
 }
 
 #hero {
-  background-image: url(../images/hero.jpg);
-  background-repeat: no-repeat;
-  height: 468px;
-  background-size: cover;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    height: 468px;
+    background-size: cover;
 }
 
 #hero-two {
-  background-image: url(../images/hero-two.jpg);
-  background-repeat: no-repeat;
-  height: 468px;
-  background-size: cover;
+    background-image: url(../images/hero-two.jpg);
+    background-repeat: no-repeat;
+    height: 468px;
+    background-size: cover;
+}
+
+// CONTACT ME PAGE
+
+.path-webform .main-container.container.js-quickedit-main-content {
+    width: 80%;
+    position: relative;
+    padding: 55px 0px
+}
+
+.path-webform .highlighted {
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 41px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: left;
+    left: 200px;
+    top: 80px;
+}
+
+.path-webform .highlighted .contact-box .contact-info {
+    color: #bf5829;
+    font-family: "Trebuchet MS";
+}
+
+.path-webform .region-content {
+    font-family: "Trebuchet MS";
+    width: 47%;
+    right: 0;
+    float: right;
+}
+
+.path-webform .region-content h1 {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    text-align: right;
+    font-family: "Bodoni MT";
+    font-size: 55px;
+    font-weight: 600;
 }
 
 // global settings
@@ -218,7 +260,7 @@ $base-content: #f4f4f3;
     padding-bottom: 55px;
 }
 
-.main-container.container.js-quickedit-main-content {
+.path-frontpage .main-container.container.js-quickedit-main-content {
     background-color: #f4f4f3;
     width: 100%;
     padding-left: 0px;
@@ -311,7 +353,7 @@ $base-content: #f4f4f3;
 
 // BLOG PAGE
 
- .main-container.container.js-quickedit-main-content .row .col-sm-12 {
+.path-frontpage .main-container.container.js-quickedit-main-content .row .col-sm-12 {
   padding: 0px;
 }
 
