@@ -506,6 +506,36 @@ $base-content: #f4f4f3;
   background-image: url(../images/keyboard-orange.jpg);
 }
 
+// BLOCK NODES
+
+.page-node-type-blog .main-container {
+    text-align: center;
+}
+
+.page-node-type-blog h1 {
+    font-family: "Bodoni MT";
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.page-node-type-blog .region-footer {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 90px;
+    border-top: 1px solid #aaaaaa;
+    font-family: "Trebuchet MS";
+    margin-top: 31px;
+}
+
+.page-node-type-blog #block-socialsharingblock h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 40px 0px;
+    color: #bf5829;
+}
+
+// FOOTER
+
 .footer.container {
   width: 100%;
   padding: 0;
