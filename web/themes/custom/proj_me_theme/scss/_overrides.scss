@@ -508,21 +508,47 @@ $base-content: #f4f4f3;
 
 // BLOCK NODES
 
+.page-node-type-blog .breadcrumb {
+    display: none;
+}
+
 .page-node-type-blog .main-container {
     text-align: center;
+    border-bottom: 1px solid #aaaaaa;
+    width: 60%;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .page-node-type-blog h1 {
     font-family: "Bodoni MT";
     font-size: 46px;
     font-weight: 600;
+    border-bottom: none;
+    margin: 0px 200px 20px 200px;
+}
+
+.page-node-type-blog .field--name-user-picture a {
+    border-radius: 50%;
+}
+
+.page-node-type-blog .author {
+    display: none;
+}
+
+.page-node-type-blog .field--name-body {
+    padding: 80px 0px;
+    margin-top: 60px;
+    border-top: 1px solid #aaaaaa;
+    text-align: left;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    color: #aaaaaa;
 }
 
 .page-node-type-blog .region-footer {
     text-align: center;
-    padding-top: 35px;
     padding-bottom: 90px;
-    border-top: 1px solid #aaaaaa;
     font-family: "Trebuchet MS";
     margin-top: 31px;
 }
