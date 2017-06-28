@@ -6465,6 +6465,9 @@ u {
   height: 468px;
   background-size: cover; }
 
+.path-webform {
+  background: #f4f4f4; }
+
 .path-webform .main-container.container.js-quickedit-main-content {
   width: 80%;
   position: relative;
@@ -6473,15 +6476,16 @@ u {
 .path-webform .highlighted {
   background-color: black;
   color: white;
-  width: 35%;
-  padding: 45px;
+  width: 30%;
+  padding: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: absolute;
   text-align: left;
-  left: 100px;
-  top: 80px;
-  font-family: "Trebuchet MS"; }
+  left: 30px;
+  top: 90px;
+  font-family: "Trebuchet MS";
+  font-size: 12px; }
 
 .path-webform .highlighted .contact-box .contact-info {
   color: #bf5829;
@@ -6489,9 +6493,9 @@ u {
 
 .path-webform .region-content {
   font-family: "Trebuchet MS";
-  width: 50%;
-  right: 0;
-  float: right; }
+  width: 60%;
+  float: right;
+  padding-right: 35px; }
 
 .path-webform .region-content h1 {
   padding-bottom: 9px;
@@ -6505,10 +6509,15 @@ u {
 .path-webform .region-content .control-label {
   background: black;
   color: white;
-  padding: 15px 20px 15px 19px;
+  padding: 16px 20px 16px 19px;
   font-family: "Trebuchet MS";
+  font-size: 11px;
   text-transform: uppercase;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 1px; }
+
+.path-webform .region-content .control-label:nth-child(2) {
+  color: blue; }
 
 .path-webform .region-content .form-control {
   display: block;
@@ -6716,6 +6725,9 @@ u {
   color: white;
   background-image: url(../images/keyboard-orange.jpg); }
 
+.page-node-type-blog {
+  background: #f4f4f4; }
+
 .page-node-type-blog .breadcrumb {
   display: none; }
 
@@ -6723,40 +6735,46 @@ u {
   text-align: center;
   border-bottom: 1px solid #aaaaaa;
   width: 60%;
-  padding-bottom: 60px;
-  padding-top: 50px; }
+  padding: 50px 0px 0px; }
 
 .page-node-type-blog h1 {
   font-family: "Bodoni MT";
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 600;
   border-bottom: none;
-  margin: 0px 200px 20px 200px; }
+  margin: 0px 85px 20px; }
 
-.page-node-type-blog .field--name-user-picture a {
-  border-radius: 50%; }
+.page-node-type-blog .field--name-user-picture img {
+  border-radius: 50%;
+  margin: 0 auto; }
 
 .page-node-type-blog .author {
   display: none; }
 
+.page-node-type-blog .field--label {
+  display: none; }
+
+.page-node-type-blog .field--item {
+  font-family: "Times New Roman";
+  color: #bf5829; }
+
 .page-node-type-blog .field--name-body {
-  padding: 80px 0px;
-  margin-top: 60px;
+  padding: 50px 0px;
+  margin-top: 45px;
   border-top: 1px solid #aaaaaa;
   text-align: left;
   font-family: "Times New Roman";
-  font-size: 16px;
+  font-size: 15px;
   color: #aaaaaa; }
 
 .page-node-type-blog .region-footer {
   text-align: center;
   padding-bottom: 90px;
-  font-family: "Trebuchet MS";
-  margin-top: 31px; }
+  font-family: "Trebuchet MS"; }
 
 .page-node-type-blog #block-socialsharingblock h2 {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
   padding: 40px 0px;
   color: #bf5829; }
 
