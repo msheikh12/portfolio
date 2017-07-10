@@ -6835,6 +6835,33 @@ u {
     text-align: left;
     margin: 0 auto;
     margin-top: 40px; } }
+@media only screen and (max-width: 768px) {
+  #block-proj-me-theme-main-menu li {
+    position: relative;
+    display: inline-block; }
+
+  .navbar-nav {
+    margin: 0; }
+
+  .navbar-nav li {
+    top: 60px; }
+
+  .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
+    display: inline-block;
+    text-align: center;
+    padding: .2em 0.35em;
+    margin-top: -3px;
+    margin-right: 9px; }
+
+  .hero-section {
+    margin-top: 30px;
+    font-family: "Bodoni MT";
+    color: white;
+    text-align: center; }
+
+  .hero-section-border {
+    border-bottom: 1px solid #525252;
+    padding-top: 140px; } }
 .path-frontpage .main-container.container.js-quickedit-main-content .row .col-sm-12 {
   padding: 0px; }
 
