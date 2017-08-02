@@ -6769,7 +6769,6 @@ u {
 
 .page-node-type-blog .region-footer {
   text-align: center;
-  padding-bottom: 90px;
   font-family: "Trebuchet MS"; }
 
 .page-node-type-blog #block-socialsharingblock h2 {
@@ -6788,7 +6787,7 @@ u {
 #block-calltoactionblock {
   padding-top: 60px;
   padding-bottom: 55px;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
   background-color: #272727;
   color: #525252;
@@ -6806,26 +6805,22 @@ u {
   font-family: "Trebuchet MS";
   font-size: 16px; }
 
-/** 
+#block-debugacademyblock {
+  padding-top: 35px;
+  padding-bottom: 36px;
+  text-align: center;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%; }
 
-* #block-templateprogrammed {
-*  padding-top: 35px;
-*  padding-bottom: 36px;
-*  text-align: center;
-*  background-color: #161616;
-*  color: #525252;
-*  font-family: "Bodoni MT";
-*  font-size: 24px;
-*  font-weight: 600;
-*  width: 100%;
-* }
-*/
-/*
- #block-templateprogrammed .debug-academy {
+#block-debugacademyblock .debug-academy {
   color: #f4a742;
   border-bottom: 1px solid #f4a742;
-}
-*/
+  margin-left: 7px; }
+
 .footer-copyright {
   padding-top: 30px;
   padding-bottom: 36px;
@@ -6876,14 +6871,13 @@ u {
     margin-left: 287px; }
 
   #block-calltoactionblock {
-    padding-top: 60px;
-    padding-bottom: 55px;
-    margin-top: 50px;
+    padding: 60px 0px 55px 18px;
+    margin-top: 40px;
     text-align: center;
     background-color: #272727;
     color: #525252;
     font-family: "Bodoni MT";
-    font-size: 37px;
+    font-size: 44px;
     font-weight: 600;
     width: 100%; }
 
@@ -7090,14 +7084,13 @@ u {
     margin-left: 280px; }
 
   #block-calltoactionblock {
-    padding-top: 60px;
-    padding-bottom: 55px;
-    margin-top: 50px;
+    padding: 60px 0px 55px 18px;
+    margin-top: 40px;
     text-align: center;
     background-color: #272727;
     color: #525252;
     font-family: "Bodoni MT";
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
     width: 100%; }
 
@@ -7108,7 +7101,18 @@ u {
     text-transform: uppercase;
     padding: 14px 30px 10px 30px;
     font-family: "Trebuchet MS";
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  #block-debugacademyblock {
+    padding-top: 35px;
+    padding-bottom: 36px;
+    text-align: center;
+    background-color: #161616;
+    color: #525252;
+    font-family: "Bodoni MT";
+    font-size: 19px;
+    font-weight: 600;
+    width: 100%; } }
 @media only screen and (max-width: 936px) {
   header#navbar a.navbar-brand {
     font-size: 23px;
@@ -7224,14 +7228,13 @@ u {
     margin-left: 235px; }
 
   #block-calltoactionblock {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 50px;
+    padding: 55x 0px 50px 18px;
+    margin-top: 40px;
     text-align: center;
     background-color: #272727;
     color: #525252;
     font-family: "Bodoni MT";
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
     width: 100%; }
 
@@ -7367,7 +7370,7 @@ u {
 
   #block-calltoactionblock {
     padding: 40px 0px 40px 8px;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     background-color: #272727;
     color: #525252;
@@ -7383,7 +7386,18 @@ u {
     text-transform: uppercase;
     padding: 13px 18px 10px 18px;
     font-family: "Trebuchet MS";
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  #block-debugacademyblock {
+    padding-top: 30px;
+    padding-bottom: 31px;
+    text-align: center;
+    background-color: #161616;
+    color: #525252;
+    font-family: "Bodoni MT";
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%; } }
 @media only screen and (max-width: 670px) {
   .page-node-type-blog .main-container {
     text-align: center;
