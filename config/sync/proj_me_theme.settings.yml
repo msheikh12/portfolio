@@ -20,5 +20,4 @@ logo:
   use_default: 1
 table_responsive: '-1'
 table: ''
-proj_me_header:
-  - '13'
+proj_me_header: {  }

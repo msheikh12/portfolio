@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.field_b
+    - field.field.node.blog.field_date
     - field.field.node.blog.field_i
     - image.style.medium
     - node.type.blog
   module:
+    - datetime
     - image
     - text
     - user
@@ -20,21 +22,30 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_b:
-    weight: 102
-    label: above
+    weight: 1
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
+  field_date:
+    weight: 0
+    label: hidden
+    settings:
+      timezone_override: America/New_York
+      format_type: blod_date
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_i:
-    weight: 103
-    label: above
+    weight: 2
+    label: hidden
     settings:
       image_style: medium
       image_link: ''
@@ -42,8 +53,8 @@ content:
     type: image
     region: content
   links:
-    weight: 100
+    weight: 4
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
