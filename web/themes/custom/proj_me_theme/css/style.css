@@ -6663,7 +6663,24 @@ u {
   margin-top: 90px;
   margin-botom: 8px; }
 
+.path-portfolio h1.page-header {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  color: #aaaaaa;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-botom: 8px; }
+
 .block-views-blockview-portfolio-block-1 .view-header {
+  color: #382a3b;
+  text-align: center;
+  font-family: "Bodoni MT";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.path-portfolio .view-header {
   color: #382a3b;
   text-align: center;
   font-family: "Bodoni MT";
@@ -6674,7 +6691,17 @@ u {
 .block-views-blockview-portfolio-block-1 .view-content {
   text-align: center; }
 
+.path-portfolio .view-content {
+  text-align: center; }
+
 .block-views-blockview-portfolio-block-1 .views-row {
+  width: 31%;
+  text-align: center;
+  display: inline-block;
+  margin: 19px;
+  margin-bottom: 5px; }
+
+.path-portfolio .views-row {
   width: 31%;
   text-align: center;
   display: inline-block;
