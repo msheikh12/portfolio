@@ -7495,18 +7495,57 @@ u {
   #block-calltoactionblock p {
     width: 78%;
     margin: 0px auto; } }
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 435px) {
+  #hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    height: 470px;
+    background-size: cover; }
+
   header#navbar a.navbar-brand {
     font-size: 23px;
     color: white;
-    top: 15px;
-    left: 83px; }
+    top: 18px;
+    left: 102px; }
 
+  #block-proj-me-theme-main-menu {
+    float: none;
+    padding-right: 28px; }
+
+  #block-socialmedialinks-2 {
+    float: none;
+    padding-top: 85px;
+    padding-right: 45px; }
+
+  .hero-section-border {
+    border-bottom: 1px solid #525252;
+    padding-top: 210px; }
+
+  .hero-text {
+    font-size: 40px;
+    font-weight: 600; }
+
+  #hero .button {
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    padding: 10px 15px;
+    background-color: #bf5829;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 15px;
+    color: #d6d6d6; } }
+@media only screen and (max-width: 377px) {
   #hero {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     height: 415px;
     background-size: cover; }
+
+  header#navbar a.navbar-brand {
+    font-size: 23px;
+    color: white;
+    top: 15px;
+    left: 83px; }
 
   #block-proj-me-theme-main-menu {
     float: none; }
