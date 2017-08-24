@@ -7515,6 +7515,52 @@ u {
 
   .hero-section-border {
     border-bottom: 1px solid #525252;
-    padding-top: 190px; } }
+    padding-top: 190px; }
+
+  #hero .button {
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    padding: 12px 24px;
+    background-color: #bf5829;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 30px;
+    color: #d6d6d6; }
+
+  .block-views-blockview-portfolio-block-1 h2.block-title {
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    color: #aaaaaa;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px; }
+
+  .block-views-blockview-portfolio-block-1 .view-header {
+    color: #382a3b;
+    text-align: center;
+    font-family: "Bodoni MT";
+    font-size: 31px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+
+  .block-views-blockview-portfolio-block-1 .views-row {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+    margin-bottom: -5px; }
+
+  .block-views-blockview-portfolio-block-1 .more-link {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px; }
+
+  .block-views-blockview-portfolio-block-1 .more-link a {
+    background-color: #bf5829;
+    color: #d6d6d6;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    font-family: "Trebuchet MS";
+    font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */
