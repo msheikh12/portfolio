@@ -1497,10 +1497,17 @@ $base-content: #f4f4f3;
 
   // HERO SECTION
 
+  header#navbar a.navbar-brand {
+    font-size: 23px;
+    color: white;
+    top: 15px;
+    left: 83px;
+  }
+
   #hero {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
-    height: 570px;
+    height: 415px;
     background-size: cover;
   }
 
@@ -1520,16 +1527,22 @@ $base-content: #f4f4f3;
     padding-top: 190px;
   }
 
+  .hero-text {
+    font-size: 35px;
+    font-weight: 600;
+  }  
+
   #hero .button {
     font-family: "Trebuchet MS";
-    font-size: 11px;
-    padding: 12px 24px;
+    font-size: 10px;
+    padding: 9px 12px;
     background-color: #bf5829;
     text-transform: uppercase;
     border: none;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #d6d6d6;
-  }
+}
+
 
   // MAIN PAGE: PORTFOLIO
 
@@ -1539,7 +1552,7 @@ $base-content: #f4f4f3;
     color: #aaaaaa;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .block-views-blockview-portfolio-block-1 .view-header {
@@ -1572,6 +1585,127 @@ $base-content: #f4f4f3;
     padding: 10px 35px;
     font-family: "Trebuchet MS";
     font-size: 12px;
+  }
+
+  // ABOUT SECTION
+
+  .block-views-blockabout-me-block-1 .views-field-field-headline {
+    position: absolute;
+    top: 25px;
+    text-align: left;
+    width: 55%;
+    left: 28px;
+  }
+
+  .block-views-blockabout-me-block-1 .views-field-field-headline .field-content {
+    font-family: "Bodoni MT";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-top: 11px;
+    color: #382a3b;
+  }
+
+  .block-views-blockabout-me-block-1 .views-field-user-picture img {
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  .block-views-blockabout-me-block-1 .views-field-user-picture {
+    right: 0;
+    float: right;
+    margin-right: 24px;
+    width: 24%;
+    margin-top: 55px;
+  }
+
+  .block-views-blockabout-me-block-1 .views-field-field-service-skills {
+    padding-top: 0px;
+    padding-right: 18px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    margin-top: 55px;
+    margin-left: 26px;
+  }
+
+  .block-views-blockabout-me-block-1 .views-field-field-biography {
+    display: inline-block;
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 26px;
+    text-align: left;
+    margin-top: 47px;
+    margin-left: 26px;
+  }
+
+  .block-views-blockview-blog-post-block-1 .views-row {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    font-family: "Trebuchet MS";
+    border-bottom: 1px solid #c1c1c1;
+  }
+
+  .block-views-blockview-blog-post-block-1 .field-content a {
+    color: #382a3b;
+    font-family: "Bodoni MT";
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  // FOOTER
+
+  #block-calltoactionblock {
+    padding: 18px 0px 25px 0px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: #272727;
+    color: #525252;
+    font-family: "Bodoni MT";
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  #block-calltoactionblock p {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  #block-calltoactionblock .lets-build {
+    background-color: #bf5829;
+    color: #d6d6d6;
+    text-transform: uppercase;
+    padding: 9px 10px;
+    font-family: "Trebuchet MS";
+    font-size: 10px;
+  }
+
+  #block-debugacademyblock {
+    padding-top: 19px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #161616;
+    color: #525252;
+    font-family: "Bodoni MT";
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .footer-copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #282828;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #161616;
+    color: #525252;
+    font-family: "Trebuchet MS";
+    font-size: 10px;
+    width: 100%;
   }
 
 }
