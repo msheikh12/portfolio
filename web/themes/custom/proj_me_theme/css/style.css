@@ -6748,6 +6748,10 @@ u {
   color: white;
   background-image: url(../images/keyboard-orange.jpg); }
 
+.row .views-row:hover {
+  color: white;
+  background-image: url(../images/keyboard-orange.jpg); }
+
 .page-node-type-blog {
   background: #f4f4f4; }
 
@@ -7495,5 +7499,22 @@ u {
   #block-calltoactionblock p {
     width: 78%;
     margin: 0px auto; } }
+@media only screen and (max-width: 377px) {
+  #hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    height: 570px;
+    background-size: cover; }
+
+  #block-proj-me-theme-main-menu {
+    float: none; }
+
+  #block-socialmedialinks-2 {
+    padding-top: 75px;
+    float: none; }
+
+  .hero-section-border {
+    border-bottom: 1px solid #525252;
+    padding-top: 190px; } }
 
 /*# sourceMappingURL=style.css.map */

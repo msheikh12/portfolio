@@ -549,6 +549,10 @@ $base-content: #f4f4f3;
   background-image: url(../images/keyboard-orange.jpg);
 }
 
+.row .views-row:hover {
+  color: white;
+  background-image: url(../images/keyboard-orange.jpg);
+}
 
 
 // BLOCK NODES
@@ -877,7 +881,7 @@ $base-content: #f4f4f3;
 
 @media only screen and (max-width: 990px) {
  
-  // HOME PAGE
+  // HOME PAGE - Hero Section
 
   #navbar {
     margin: 0;
@@ -1487,4 +1491,34 @@ $base-content: #f4f4f3;
     width: 78%;
     margin: 0px auto;
   }
+}
+
+@media only screen and (max-width: 377px) {
+
+  // HERO SECTION
+
+  #hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    height: 570px;
+    background-size: cover;
+  }
+
+
+  #block-proj-me-theme-main-menu {
+    float: none;
+  }
+
+
+  #block-socialmedialinks-2 {
+    padding-top: 75px;
+    float: none;
+  }
+
+  .hero-section-border {
+    border-bottom: 1px solid #525252;
+    padding-top: 190px;
+  }
+
+
 }
