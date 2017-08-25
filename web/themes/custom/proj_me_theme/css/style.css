@@ -7718,6 +7718,16 @@ u {
     position: relative;
     padding: 35px 0px; }
 
+  .row {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .row .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px; }
+
   .path-webform .highlighted {
     background-color: black;
     color: white;
