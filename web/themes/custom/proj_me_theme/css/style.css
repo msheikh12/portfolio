@@ -7542,7 +7542,7 @@ u {
   #hero {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
-    height: 415px;
+    height: 430px;
     background-size: cover; }
 
   header#navbar a.navbar-brand {
@@ -7559,11 +7559,11 @@ u {
   #block-socialmedialinks-2 {
     float: none;
     padding-top: 85px;
-    padding-right: 0px; }
+    padding-right: 15px; }
 
   .hero-section-border {
     border-bottom: 1px solid #525252;
-    padding-top: 200px; }
+    padding-top: 215px; }
 
   .hero-text {
     font-size: 35px;
@@ -7642,7 +7642,7 @@ u {
     margin-top: 55px; }
 
   .block-views-blockabout-me-block-1 .views-field-field-service-skills {
-    padding-top: 9px;
+    padding-top: 20px;
     padding-right: 0px;
     padding-left: 25px;
     text-align: left;
