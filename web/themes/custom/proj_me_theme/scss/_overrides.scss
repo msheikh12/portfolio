@@ -18,6 +18,13 @@
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 
+// global settings
+$base-orange: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-font: "Trebuchet MS";
+$font-two: "Bodoni MT";
+
 ol, ul {
   padding-left: 1.5em;
   .popover &:last-child {
@@ -84,30 +91,30 @@ header#navbar a.navbar-brand {
 }
 
 .fa-github {
-  background-color: #bf5829;
+  background-color: $base-orange;
   border-radius: 50%;
   color: #37293a;
-  border: 7px solid #bf5829;
-  border-right: 10px solid #bf5829;
-  border-left: 10px solid #bf5829;
+  border: 7px solid $base-orange;
+  border-right: 10px solid $base-orange;
+  border-left: 10px solid $base-orange;
 }
 
 .fa-twitter {
-  background-color: #bf5829;
+  background-color: $base-orange;
   border-radius: 50%;
   color: #37293a;
-  border: 7px solid #bf5829;
-  border-right: 8px solid #bf5829;
-  border-left: 8px solid #bf5829;
+  border: 7px solid $base-orange;
+  border-right: 8px solid $base-orange;
+  border-left: 8px solid $base-orange;
 }
 
 .fa-linkedin {
-  background-color: #bf5829;
+  background-color: $base-orange;
   border-radius: 50%;
   color: #37293a;
-  border: 7px solid #bf5829;
-  border-right: 9px solid #bf5829;
-  border-left: 9px solid #bf5829;
+  border: 7px solid $base-orange;
+  border-right: 9px solid $base-orange;
+  border-left: 9px solid $base-orange;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -116,7 +123,7 @@ header#navbar a.navbar-brand {
   margin-right: 27px;
   padding: 10px 30px;
   text-transform: uppercase;
-  font-family: "Trebuchet MS";
+  font-family: $base-font;
 }
 
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
@@ -143,18 +150,18 @@ a.name {
   position: absolute;
   left: 0;
   text-transform: uppercase;
-  font-family: "Trebuchet MS";
+  font-family: $base-font;
   color: white;
 }
 
 .hero-section-border {
-  border-bottom: 1px solid #525252;
+  border-bottom: 1px solid $base-grey;
   padding-top: 97px;
 }
 
 .hero-section {
   margin-top: 70px;
-  font-family: "Bodoni MT";
+  font-family: $font-two;
   color: white;
 }
 
@@ -183,12 +190,12 @@ u {
   background-size: cover;
 
     .button{
-      font-family: "Trebuchet MS";
+      font-family: $base-font;
       padding: 12px 24px;
-      background-color: #bf5829;
+      background-color: $base-orange;
       text-transform: uppercase;
       border: none;
-        margin-top: 30px;
+      margin-top: 30px;
       color: #d6d6d6;
     }
 }
@@ -225,17 +232,17 @@ u {
     text-align: left;
     left: 30px;
     top: 90px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 12px;
 }
 
 .path-webform .highlighted .contact-box .contact-info {
-    color: #bf5829;
-    font-family: "Trebuchet MS";
+    color: $base-orange;
+    font-family: $base-font;
 }
 
 .path-webform .region-content {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     width: 60%;
     float: right;
     padding-right: 35px;
@@ -245,7 +252,7 @@ u {
     padding-bottom: 9px;
     margin: 0px 0px 20px;
     text-align: center;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 55px;
     font-weight: 600;
     border: none;
@@ -256,7 +263,7 @@ u {
     background: black;
     color: white;
     padding: 16px 20px 16px 19px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
     text-transform: uppercase;
     display: inline-block;
@@ -318,23 +325,14 @@ u {
 
 .path-webform .send-button {
     color: #fff;
-    background-color: #bf5829;
-    border-color: #bf5829;
+    background-color: $base-orange;
+    border-color: $base-orange;
     border-radius: 0px;
     padding: 10px 45px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     text-transform: uppercase;
     margin: 17px 0 0 0;
 }
-
-
-
-
-// global settings
-$base-color: #bf5829;
-$base-grey: #525252;
-$black: #000000;
-$base-content: #f4f4f3;
 
 
 // ABOUT ME SECTION
@@ -371,11 +369,11 @@ $base-content: #f4f4f3;
 .block-views-blockabout-me-block-1 .views-field-field-headline .views-label-field-headline {
     color: #aaaaaa;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
 }
 
 .block-views-blockabout-me-block-1 .views-field-field-headline .field-content {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
@@ -412,14 +410,14 @@ $base-content: #f4f4f3;
 }
 
 .block-views-blockabout-me-block-1 .views-field-field-service-skills .field-content a {
-    color: #bf5829;
+    color: $base-orange;
 }
 
 
 .block-views-blockabout-me-block-1 .views-label-field-service-skills {
     color: #aaaaaa;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
 } 
 
 .block-views-blockabout-me-block-1 .views-field-field-biography {
@@ -436,7 +434,7 @@ $base-content: #f4f4f3;
 .block-views-blockabout-me-block-1 .views-label-field-biography {
     color: #aaaaaa;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
 }
 
 .block-views-blockabout-me-block-1 .views-field-field-biography .field-content p {
@@ -453,7 +451,7 @@ $base-content: #f4f4f3;
 
 .block-views-blockview-portfolio-block-1 h2.block-title {
   font-size: 15px;
-  font-family: "Trebuchet MS";
+  font-family: $base-font;
   color: #aaaaaa;
   text-align: center;
   text-transform: uppercase;
@@ -463,7 +461,7 @@ $base-content: #f4f4f3;
 
 .path-portfolio h1.page-header {
   font-size: 15px;
-  font-family: "Trebuchet MS";
+  font-family: $base-font;
   color: #aaaaaa;
   text-align: center;
   text-transform: uppercase;
@@ -474,7 +472,7 @@ $base-content: #f4f4f3;
 .block-views-blockview-portfolio-block-1 .view-header {
   color: #382a3b;
   text-align: center;
-  font-family: "Bodoni MT";
+  font-family: $font-two;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -483,7 +481,7 @@ $base-content: #f4f4f3;
 .path-portfolio .view-header {
   color: #382a3b;
   text-align: center;
-  font-family: "Bodoni MT";
+  font-family: $font-two;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -521,11 +519,11 @@ $base-content: #f4f4f3;
 }
 
 .block-views-blockview-portfolio-block-1 .more-link a {
-  background-color: #bf5829;
+  background-color: $base-orange;
   color: #d6d6d6;
   text-transform: uppercase;
   padding: 15px 65px;
-  font-family: "Trebuchet MS";
+  font-family: $base-font;
 }
 
 .img-responsive {
@@ -538,7 +536,7 @@ $base-content: #f4f4f3;
     width: 100%;
     text-align: center;
     padding: 45px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     border-bottom: 1px solid #c1c1c1;
 }
 
@@ -548,7 +546,7 @@ $base-content: #f4f4f3;
 
 .block-views-blockview-blog-post-block-1 .field-content a {
     color: #382a3b;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
 }
@@ -577,7 +575,7 @@ $base-content: #f4f4f3;
 }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 42px;
     font-weight: 600;
     border-bottom: none;
@@ -593,7 +591,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 17px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 38px;
     padding-left: 5px;
 }
@@ -624,16 +622,15 @@ $base-content: #f4f4f3;
 
 .page-node-type-blog .region-footer {
     text-align: center;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
 }
 
 .page-node-type-blog #block-socialsharingblock h2 {
     text-transform: uppercase;
     font-size: 12px;
     padding: 40px 0px;
-    color: #bf5829;
+    color: $base-orange;
 }
-
 
 
 // FOOTER
@@ -649,62 +646,99 @@ $base-content: #f4f4f3;
 
 
 #block-calltoactionblock {
-    padding-top: 60px;
-    padding-bottom: 55px;
-    margin-top: 40px;
-    text-align: center;
-    background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
-    font-size: 44px;
-    font-weight: 600;
-    width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #272727;
+  color: $base-grey;
+  width: 100%;
+
+  padding : {
+    top: 60px;
+    bottom: 55px;
+  }
+
+  font : {
+    family: $font-two;
+    size: 44px;
+    weight: 600;
+  }
+
 }
 
 
- 
 #block-calltoactionblock .lets-build {
-    margin: 0px 25px;
-    background-color: #bf5829;
-    color: #d6d6d6;
-    text-transform: uppercase;
-    padding: 20px 50px 14px 50px;
-    font-family: "Trebuchet MS";
-    font-size: 16px;
+  background-color: $base-orange;
+  color: #d6d6d6;
+  text-transform: uppercase;
+
+  margin : {
+    top: 0px;
+    right:25px;
+    bottom: 0px;
+    left: 25px;
+  }
+
+  padding : {
+    top: 20px;
+    right:50px;
+    bottom: 14px;
+    left: 50px;
+  }
+
+  font : {
+    family: $base-font;
+    size: 16px;
+  }
 }
  
+
 #block-debugacademyblock {
-    padding-top: 35px;
-    padding-bottom: 36px;
-    text-align: center;
-    background-color: #161616;
-    color: #525252;
-    font-family: "Bodoni MT";
-    font-size: 24px;
-    font-weight: 600;
-    width: 100%;
+  text-align: center;
+  background-color: #161616;
+  color: $base-grey;
+  width: 100%;
+
+  padding : {
+    top: 35px;
+    bottom: 36px;
+  }
+
+  font : {
+    family: $font-two;
+    size: 24px;
+    weight: 600;
+  }
 }
+
 
 #block-debugacademyblock .debug-academy {
-    color: #f4a742;
-    border-bottom: 1px solid #f4a742;
-    margin-left: 7px;
+  color: #f4a742;
+  border-bottom: 1px solid #f4a742;
+  margin-left: 7px;
 }
+
 
 .footer-copyright {
-  padding-top: 30px;
-  padding-bottom: 36px;
   border-top: 1px solid #282828;
-  text-align: center;
-  text-transform: uppercase;
   background-color: #161616;
-  color: #525252;
-  font-family: "Trebuchet MS";
+  color: $base-grey;
+  font-family: $base-font;
   width: 100%;
+
+  padding : {
+    top: 30px;
+    bottom: 36px;
+  }
+
+  text : {
+    align: center;
+    transform: uppercase;
+  }
 }
 
+
 .footer-copyright-year {
-  color: #bf5829;
+  color: $base-orange;
 }
 
 
@@ -726,7 +760,7 @@ $base-content: #f4f4f3;
   // SINGLE BLOG POST
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 42px;
     font-weight: 600;
     border-bottom: none;
@@ -742,7 +776,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 17px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 30px;
     padding-left: 10px;
   }
@@ -760,8 +794,8 @@ $base-content: #f4f4f3;
     margin-top: 40px;
     text-align: center;
     background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 44px;
     font-weight: 600;
     width: 100%;
@@ -770,11 +804,11 @@ $base-content: #f4f4f3;
 
 #block-calltoactionblock .lets-build {
     margin: 0px 25px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 16px 40px 12px 40px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 13px;
   }
 }
@@ -824,7 +858,7 @@ $base-content: #f4f4f3;
     position: absolute;
     text-align: left;
     top: 90px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
 }
 
@@ -843,7 +877,7 @@ $base-content: #f4f4f3;
 }
 
   .path-webform .region-content {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     width: 59%;
     float: right;
     padding-right: 20px;
@@ -859,7 +893,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -875,7 +909,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 17px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 27px;
     padding-left: 0px;
   }
@@ -903,7 +937,7 @@ $base-content: #f4f4f3;
 
   .hero-section {
     margin-top: 70px;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     color: white;
     text-align: left;
   }
@@ -917,7 +951,7 @@ $base-content: #f4f4f3;
   }
 
   .block-views-blockabout-me-block-1 .views-field-field-headline .field-content {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
@@ -973,7 +1007,7 @@ $base-content: #f4f4f3;
     position: absolute;
     text-align: left;
     top: 90px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
   }
 
@@ -987,7 +1021,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -1003,7 +1037,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 17px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 29px;
     padding-left: 0px;
   }
@@ -1021,21 +1055,21 @@ $base-content: #f4f4f3;
     margin-top: 40px;
     text-align: center;
     background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 36px;
     font-weight: 600;
     width: 100%;
   }
 
 
-#block-calltoactionblock .lets-build {
+  #block-calltoactionblock .lets-build {
     margin: 0px 25px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 14px 30px 10px 30px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 10px;
   }
 
@@ -1044,13 +1078,14 @@ $base-content: #f4f4f3;
     padding-bottom: 36px;
     text-align: center;
     background-color: #161616;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 19px;
     font-weight: 600;
     width: 100%;
-  }
+  } 
 }
+
 
 @media only screen and (max-width: 936px) {
  
@@ -1067,7 +1102,7 @@ $base-content: #f4f4f3;
     margin-right: 20px;
     padding: 10px 16px;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
   }
 
   .menu li:nth-child(2) {
@@ -1124,7 +1159,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -1140,7 +1175,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 17px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 28px;
     padding-left: 10px;
   }
@@ -1164,7 +1199,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -1180,7 +1215,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 16px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 25px;
     padding-left: 0px;
   }
@@ -1198,8 +1233,8 @@ $base-content: #f4f4f3;
     margin-top: 40px;
     text-align: center;
     background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 36px;
     font-weight: 600;
     width: 100%;
@@ -1208,11 +1243,11 @@ $base-content: #f4f4f3;
 
 #block-calltoactionblock .lets-build {
     margin: 0px 25px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 13px 23px 10px 23px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 10px;
   }
 }
@@ -1243,13 +1278,13 @@ $base-content: #f4f4f3;
 
   .hero-section {
     margin-top: 30px;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     color: white;
     text-align: center;
   }
 
   .hero-section-border {
-    border-bottom: 1px solid #525252;
+    border-bottom: 1px solid $base-grey;
     padding-top: 140px;
   }
 
@@ -1263,7 +1298,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -1279,7 +1314,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 16px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 25px;
     padding-left: 0px;
   }
@@ -1305,7 +1340,7 @@ $base-content: #f4f4f3;
     position: absolute;
     text-align: left;
     top: 90px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
 }
 
@@ -1324,7 +1359,7 @@ $base-content: #f4f4f3;
 }
 
   .path-webform .region-content {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     width: 59%;
     float: right;
     padding-right: 20px;
@@ -1340,7 +1375,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 40px;
     font-weight: 600;
     border-bottom: none;
@@ -1356,7 +1391,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 16px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 25px;
     padding-left: 0px;
   }
@@ -1374,8 +1409,8 @@ $base-content: #f4f4f3;
     margin-top: 40px;
     text-align: center;
     background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 30px;
     font-weight: 600;
     width: 100%;
@@ -1384,11 +1419,11 @@ $base-content: #f4f4f3;
 
   #block-calltoactionblock .lets-build {
     margin: 0px 15px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 13px 18px 10px 18px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 10px;
   }
 
@@ -1397,8 +1432,8 @@ $base-content: #f4f4f3;
     padding-bottom: 31px;
     text-align: center;
     background-color: #161616;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 16px;
     font-weight: 600;
     width: 100%;
@@ -1418,7 +1453,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 39px;
     font-weight: 600;
     border-bottom: none;
@@ -1434,7 +1469,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 16px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 26px;
     padding-left: 0px;
   }
@@ -1466,7 +1501,7 @@ $base-content: #f4f4f3;
   }
 
   .page-node-type-blog .region-content h1 {
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 38px;
     font-weight: 600;
     border-bottom: none;
@@ -1482,7 +1517,7 @@ $base-content: #f4f4f3;
     text-align: left;
     font-family: "Times New Roman";
     font-size: 16px;
-    color: #bf5829;
+    color: $base-orange;
     margin-top: 26px;
     padding-left: 0px;
   }
@@ -1531,7 +1566,7 @@ $base-content: #f4f4f3;
   }
 
   .hero-section-border {
-    border-bottom: 1px solid #525252;
+    border-bottom: 1px solid $base-grey;
     padding-top: 210px;
   }
 
@@ -1541,10 +1576,10 @@ $base-content: #f4f4f3;
   }
 
   #hero .button {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
     padding: 10px 15px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     text-transform: uppercase;
     border: none;
     margin-top: 15px;
@@ -1553,7 +1588,7 @@ $base-content: #f4f4f3;
 
 }
 
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 376px) {
 
   // HERO SECTION
 
@@ -1573,16 +1608,22 @@ $base-content: #f4f4f3;
 
   #block-proj-me-theme-main-menu {
     float: none;
+    
+    ul {
+      margin-right: -23px;
+    }
   }
 
   #block-socialmedialinks-2 {
-    padding-top: 75px;
     float: none;
+    padding-top: 85px;
+    padding-right: 0px;
   }
+  
 
   .hero-section-border {
-    border-bottom: 1px solid #525252;
-    padding-top: 190px;
+    border-bottom: 1px solid $base-grey;
+    padding-top: 200px;
   }
 
   .hero-text {
@@ -1591,10 +1632,10 @@ $base-content: #f4f4f3;
   }  
 
   #hero .button {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 10px;
     padding: 9px 12px;
-    background-color: #bf5829;
+    background-color: $base-orange;
     text-transform: uppercase;
     border: none;
     margin-top: 10px;
@@ -1606,7 +1647,7 @@ $base-content: #f4f4f3;
 
   .block-views-blockview-portfolio-block-1 h2.block-title {
     font-size: 15px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     color: #aaaaaa;
     text-align: center;
     text-transform: uppercase;
@@ -1616,7 +1657,7 @@ $base-content: #f4f4f3;
   .block-views-blockview-portfolio-block-1 .view-header {
     color: #382a3b;
     text-align: center;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 31px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -1637,11 +1678,11 @@ $base-content: #f4f4f3;
   }
 
   .block-views-blockview-portfolio-block-1 .more-link a {
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 10px 35px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 12px;
   }
 
@@ -1656,8 +1697,8 @@ $base-content: #f4f4f3;
   }
 
   .block-views-blockabout-me-block-1 .views-field-field-headline .field-content {
-    font-family: "Bodoni MT";
-    font-size: 20px;
+    font-family: $font-two;
+    font-size: 19px;
     font-weight: 600;
     line-height: 23px;
     padding-top: 11px;
@@ -1678,7 +1719,7 @@ $base-content: #f4f4f3;
   }
 
   .block-views-blockabout-me-block-1 .views-field-field-service-skills {
-    padding-top: 0px;
+    padding-top: 9px;
     padding-right: 0px;
     padding-left: 25px;
     text-align: left;
@@ -1703,13 +1744,13 @@ $base-content: #f4f4f3;
     width: 100%;
     text-align: center;
     padding: 25px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     border-bottom: 1px solid #c1c1c1;
   }
 
   .block-views-blockview-blog-post-block-1 .field-content a {
     color: #382a3b;
-    font-family: "Bodoni MT";
+    font-family: $font-two;
     font-size: 28px;
     font-weight: 600;
   }
@@ -1721,8 +1762,8 @@ $base-content: #f4f4f3;
     margin-top: 0px;
     text-align: center;
     background-color: #272727;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 25px;
     font-weight: 600;
     width: 100%;
@@ -1734,11 +1775,11 @@ $base-content: #f4f4f3;
   }
 
   #block-calltoactionblock .lets-build {
-    background-color: #bf5829;
+    background-color: $base-orange;
     color: #d6d6d6;
     text-transform: uppercase;
     padding: 9px 10px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 10px;
   }
 
@@ -1747,8 +1788,8 @@ $base-content: #f4f4f3;
     padding-bottom: 20px;
     text-align: center;
     background-color: #161616;
-    color: #525252;
-    font-family: "Bodoni MT";
+    color: $base-grey;
+    font-family: $font-two;
     font-size: 16px;
     font-weight: 600;
     width: 100%;
@@ -1761,8 +1802,8 @@ $base-content: #f4f4f3;
     text-align: center;
     text-transform: uppercase;
     background-color: #161616;
-    color: #525252;
-    font-family: "Trebuchet MS";
+    color: $base-grey;
+    font-family: $base-font;
     font-size: 10px;
     width: 100%;
   }
@@ -1796,13 +1837,13 @@ $base-content: #f4f4f3;
     letter-spacing: 1px;
     text-align: left;
     top: 0px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
     margin-left: 35px;
   }
 
   .path-webform .region-content {
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     width: 100%;
     float: none;
     padding-right: 9px;
@@ -1832,7 +1873,7 @@ $base-content: #f4f4f3;
     background: black;
     color: white;
     padding: 11px 11px 10px 11px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     font-size: 11px;
     text-transform: uppercase;
     display: inline-block;
@@ -1860,11 +1901,11 @@ $base-content: #f4f4f3;
 
   .path-webform .send-button {
     color: #fff;
-    background-color: #bf5829;
-    border-color: #bf5829;
+    background-color: $base-orange;
+    border-color: $base-orange;
     border-radius: 0px;
     padding: 7px 25px;
-    font-family: "Trebuchet MS";
+    font-family: $base-font;
     text-transform: uppercase;
     margin: 10px 0 0 0;
   }
