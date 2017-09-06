@@ -7539,6 +7539,12 @@ u {
     margin-top: 15px;
     color: #d6d6d6; }
 
+  .path-frontpage .main-container.container.js-quickedit-main-content {
+    background-color: #f4f4f3;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; }
+
   .block-views-blockview-portfolio-block-1 h2.block-title {
     font-size: 15px;
     font-family: "Trebuchet MS";
@@ -7553,10 +7559,10 @@ u {
     margin-bottom: 35px; }
 
   .block-views-blockview-portfolio-block-1 .views-row {
-    width: 40%;
+    width: 44%;
     text-align: center;
     display: inline-block;
-    margin: 11px 5px -3px 17px; }
+    margin: 11px 9px -7px 8px; }
 
   .block-views-blockview-portfolio-block-1 .more-link a {
     background-color: #bf5829;
