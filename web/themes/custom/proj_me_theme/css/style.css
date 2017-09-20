@@ -6470,6 +6470,9 @@ u {
 .last {
   font-style: italic; }
 
+.hero-section .call-to-action {
+  margin-top: 50px; }
+
 .call-to-action p {
   font-size: 11px; }
 
@@ -6483,9 +6486,18 @@ u {
     padding: 12px 24px;
     background-color: #bf5829;
     text-transform: uppercase;
+    text-decoration: none;
     border: none;
     margin-top: 30px;
     color: #d6d6d6; }
+
+#hero .button:hover {
+  background-color: rgba(17, 12, 40, 0.9);
+  transition: background-color 0.5s ease;
+  text-decoration: none; }
+
+#hero .button:visited {
+  text-decoration: none; }
 
 #hero-two {
   background-image: url(../images/hero-two.jpg);
