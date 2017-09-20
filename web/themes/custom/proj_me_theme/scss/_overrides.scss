@@ -90,6 +90,24 @@ header#navbar a.navbar-brand {
   float: right;
 }
 
+.fa-twitter {
+  background-color: $base-orange;
+  border-radius: 50%;
+  color: #37293a;
+  border: 7px solid $base-orange;
+  border-right: 8px solid $base-orange;
+  border-left: 8px solid $base-orange;
+}
+
+.fa-twitter:hover {
+  background-color: #37293a;
+  border-radius: 50%;
+  color: #bf5829;
+  border: 7px solid #37293a;
+  border-right: 8px solid #37293a;
+  border-left: 8px solid #37293a;
+}
+
 .fa-github {
   background-color: $base-orange;
   border-radius: 50%;
@@ -99,13 +117,13 @@ header#navbar a.navbar-brand {
   border-left: 10px solid $base-orange;
 }
 
-.fa-twitter {
-  background-color: $base-orange;
+.fa-github:hover {
+  background-color: #37293a;
   border-radius: 50%;
-  color: #37293a;
-  border: 7px solid $base-orange;
-  border-right: 8px solid $base-orange;
-  border-left: 8px solid $base-orange;
+  color: $base-orange;
+  border: 7px solid #37293a;
+  border-right: 10px solid #37293a;
+  border-left: 10px solid #37293a;
 }
 
 .fa-linkedin {
@@ -117,13 +135,28 @@ header#navbar a.navbar-brand {
   border-left: 9px solid $base-orange;
 }
 
-.navbar-default .navbar-nav > li > a {
+.fa-linkedin:hover {
+  background-color: #37293a;
+  border-radius: 50%;
+  color: $base-orange;
+  border: 7px solid #37293a;
+  border-right: 9px solid #37293a;
+  border-left: 9px solid #37293a;
+}
+
+.navbar-default .navbar-nav li a {
   color: white;
-  background: #110c28;
+  background: rgba(17, 12, 40, 0.9);
   margin-right: 27px;
   padding: 10px 30px;
   text-transform: uppercase;
   font-family: $base-font;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #000;
+  background-color: rgba(191, 88, 41, 0.9);
+  transition: background-color 0.5s ease;
 }
 
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
@@ -141,10 +174,8 @@ header#navbar a.navbar-brand {
   padding-right: 15px;
 }
 
-.navbar-default .navbar-nav li a:hover {
-    color: #333;
-    background-color: $base-orange;
-}
+
+
 .navbar-default {
   background-color: transparent;
   border: none;

@@ -6366,6 +6366,22 @@ header#navbar a.navbar-brand {
 #block-socialmedialinks-2 {
   float: right; }
 
+.fa-twitter {
+  background-color: #bf5829;
+  border-radius: 50%;
+  color: #37293a;
+  border: 7px solid #bf5829;
+  border-right: 8px solid #bf5829;
+  border-left: 8px solid #bf5829; }
+
+.fa-twitter:hover {
+  background-color: #37293a;
+  border-radius: 50%;
+  color: #bf5829;
+  border: 7px solid #37293a;
+  border-right: 8px solid #37293a;
+  border-left: 8px solid #37293a; }
+
 .fa-github {
   background-color: #bf5829;
   border-radius: 50%;
@@ -6374,13 +6390,13 @@ header#navbar a.navbar-brand {
   border-right: 10px solid #bf5829;
   border-left: 10px solid #bf5829; }
 
-.fa-twitter {
-  background-color: #bf5829;
+.fa-github:hover {
+  background-color: #37293a;
   border-radius: 50%;
-  color: #37293a;
-  border: 7px solid #bf5829;
-  border-right: 8px solid #bf5829;
-  border-left: 8px solid #bf5829; }
+  color: #bf5829;
+  border: 7px solid #37293a;
+  border-right: 10px solid #37293a;
+  border-left: 10px solid #37293a; }
 
 .fa-linkedin {
   background-color: #bf5829;
@@ -6390,13 +6406,26 @@ header#navbar a.navbar-brand {
   border-right: 9px solid #bf5829;
   border-left: 9px solid #bf5829; }
 
-.navbar-default .navbar-nav > li > a {
+.fa-linkedin:hover {
+  background-color: #37293a;
+  border-radius: 50%;
+  color: #bf5829;
+  border: 7px solid #37293a;
+  border-right: 9px solid #37293a;
+  border-left: 9px solid #37293a; }
+
+.navbar-default .navbar-nav li a {
   color: white;
-  background: #110c28;
+  background: rgba(17, 12, 40, 0.9);
   margin-right: 27px;
   padding: 10px 30px;
   text-transform: uppercase;
   font-family: "Trebuchet MS"; }
+
+.navbar-default .navbar-nav li a:hover {
+  color: #000;
+  background-color: rgba(191, 88, 41, 0.9);
+  transition: background-color 0.5s ease; }
 
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
   display: inline-block;
@@ -6409,10 +6438,6 @@ header#navbar a.navbar-brand {
 
 .menu li:nth-child(3) {
   padding-right: 15px; }
-
-.navbar-default .navbar-nav li a:hover {
-  color: #333;
-  background-color: #bf5829; }
 
 .navbar-default {
   background-color: transparent;
