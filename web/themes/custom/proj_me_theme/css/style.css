@@ -6410,7 +6410,7 @@ header#navbar a.navbar-brand {
 .menu li:nth-child(3) {
   padding-right: 15px; }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav li a:hover {
   color: #333;
   background-color: #bf5829; }
 
