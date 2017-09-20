@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "148f5c1a134111d7778f0901a2f79629",
+    "content-hash": "26a7f162b490f57ce180776085bfce06",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1070,7 +1070,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.3",
-                    "datestamp": "1491860942"
+                    "datestamp": "1495040301"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2041,6 +2041,57 @@
             }
         },
         {
+            "name": "drupal/simple_gmap",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/simple_gmap",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "364d59f318052ab8094b25e52b43f7f7deda9259"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1504630143",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "jhodgdon",
+                    "homepage": "https://www.drupal.org/user/155601"
+                },
+                {
+                    "name": "martin107",
+                    "homepage": "https://www.drupal.org/user/2659379"
+                }
+            ],
+            "description": "Provides a Google Maps link/map formatter for simple Text fields.",
+            "homepage": "https://www.drupal.org/project/simple_gmap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/simple_gmap"
+            }
+        },
+        {
             "name": "drupal/social_media",
             "version": "1.0.0",
             "source": {
@@ -2051,7 +2102,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/social_media-8.x-1.0.zip",
-                "reference": null,
+                "reference": "8.x-1.0",
                 "shasum": "e6c22102ad80aea5f6fd570af2f6c15c22a96c82"
             },
             "require": {
@@ -2108,7 +2159,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.2",
-                    "datestamp": "1485022383"
+                    "datestamp": "1495206185"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

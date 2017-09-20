@@ -141,6 +141,10 @@ header#navbar a.navbar-brand {
   padding-right: 15px;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #333;
+    background-color: $base-orange;
+}
 .navbar-default {
   background-color: transparent;
   border: none;
