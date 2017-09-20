@@ -577,6 +577,12 @@ u {
   font-family: $base-font;
 }
 
+.block-views-blockview-portfolio-block-1 .more-link a:hover {
+    background-color: rgba(17, 12, 40, 0.9);
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+
 .img-responsive {
     max-width: 100%;
     height: auto;
