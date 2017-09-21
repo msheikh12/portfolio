@@ -6427,6 +6427,10 @@ header#navbar a.navbar-brand {
   background-color: rgba(191, 88, 41, 0.9);
   transition: background-color 0.5s ease; }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: rgba(191, 88, 41, 0.9); }
+
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
   display: inline-block;
   text-align: center;
@@ -6489,7 +6493,7 @@ u {
     text-decoration: none;
     border: none;
     margin-top: 30px;
-    color: #d6d6d6; }
+    color: #ffffff; }
 
 #hero .button:hover {
   background-color: rgba(17, 12, 40, 0.9);
@@ -6572,7 +6576,7 @@ u {
   font-size: 14px;
   line-height: 1.42857;
   color: #555555;
-  background-color: #fff;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #e8e8e8;
   border-radius: 0; }
@@ -6596,7 +6600,7 @@ u {
   clear: both; }
 
 .path-webform .send-button {
-  color: #fff;
+  color: #ffffff;
   background-color: #bf5829;
   border-color: #bf5829;
   border-radius: 0px;
@@ -6604,6 +6608,11 @@ u {
   font-family: "Trebuchet MS";
   text-transform: uppercase;
   margin: 17px 0 0 0; }
+
+.path-webform .send-button:hover {
+  background-color: rgba(17, 12, 40, 0.9);
+  transition: background-color 0.5s ease;
+  text-decoration: none; }
 
 .block-views-blockabout-me-block-1 {
   text-align: center;
@@ -6665,6 +6674,9 @@ u {
 
 .block-views-blockabout-me-block-1 .views-field-field-service-skills .field-content a {
   color: #bf5829; }
+
+.block-views-blockabout-me-block-1 .views-field-field-service-skills .field-content a:hover {
+  text-decoration: none; }
 
 .block-views-blockabout-me-block-1 .views-label-field-service-skills {
   color: #aaaaaa;
@@ -6754,7 +6766,7 @@ u {
 
 .block-views-blockview-portfolio-block-1 .more-link a {
   background-color: #bf5829;
-  color: #d6d6d6;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 15px 65px;
   font-family: "Trebuchet MS"; }
@@ -6762,6 +6774,9 @@ u {
 .block-views-blockview-portfolio-block-1 .more-link a:hover {
   background-color: rgba(17, 12, 40, 0.9);
   transition: background-color 0.5s ease;
+  text-decoration: none; }
+
+.block-views-blockview-portfolio-block-1 .more-link a:visited {
   text-decoration: none; }
 
 .img-responsive {
@@ -6869,7 +6884,7 @@ u {
 
 #block-calltoactionblock .lets-build {
   background-color: #bf5829;
-  color: #d6d6d6;
+  color: #ffffff;
   text-transform: uppercase;
   margin-top: 0px;
   margin-right: 25px;
@@ -6961,7 +6976,7 @@ u {
   #block-calltoactionblock .lets-build {
     margin: 0px 25px;
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 16px 40px 12px 40px;
     font-family: "Trebuchet MS";
@@ -7013,7 +7028,7 @@ u {
     font-size: 14px;
     line-height: 1.42857;
     color: #555555;
-    background-color: #fff;
+    background-color: #ffffff;
     background-image: none;
     border: 1px solid #e8e8e8;
     border-radius: 0; }
@@ -7174,7 +7189,7 @@ u {
   #block-calltoactionblock .lets-build {
     margin: 0px 25px;
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 14px 30px 10px 30px;
     font-family: "Trebuchet MS";
@@ -7318,7 +7333,7 @@ u {
   #block-calltoactionblock .lets-build {
     margin: 0px 25px;
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 13px 23px 10px 23px;
     font-family: "Trebuchet MS";
@@ -7403,7 +7418,7 @@ u {
     font-size: 14px;
     line-height: 1.42857;
     color: #555555;
-    background-color: #fff;
+    background-color: #ffffff;
     background-image: none;
     border: 1px solid #e8e8e8;
     border-radius: 0; }
@@ -7459,7 +7474,7 @@ u {
   #block-calltoactionblock .lets-build {
     margin: 0px 15px;
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 13px 18px 10px 18px;
     font-family: "Trebuchet MS";
@@ -7583,7 +7598,7 @@ u {
     text-transform: uppercase;
     border: none;
     margin-top: 15px;
-    color: #d6d6d6; }
+    color: #ffffff; }
 
   .path-frontpage .main-container.container.js-quickedit-main-content {
     background-color: #f4f4f3;
@@ -7612,7 +7627,7 @@ u {
 
   .block-views-blockview-portfolio-block-1 .more-link a {
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 12px 38px;
     font-family: "Trebuchet MS";
@@ -7710,7 +7725,7 @@ u {
 
   #block-calltoactionblock .lets-build {
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 9px 10px;
     font-family: "Trebuchet MS";
@@ -7777,7 +7792,7 @@ u {
     text-transform: uppercase;
     border: none;
     margin-top: 10px;
-    color: #d6d6d6; }
+    color: #ffffff; }
 
   .path-frontpage .main-container.container.js-quickedit-main-content {
     background-color: #f4f4f3;
@@ -7814,7 +7829,7 @@ u {
 
   .block-views-blockview-portfolio-block-1 .more-link a {
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 10px 30px;
     font-family: "Trebuchet MS";
@@ -7908,7 +7923,7 @@ u {
 
   #block-calltoactionblock .lets-build {
     background-color: #bf5829;
-    color: #d6d6d6;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 9px 10px;
     font-family: "Trebuchet MS";
@@ -7984,7 +7999,7 @@ u {
     font-size: 14px;
     line-height: 1.42857;
     color: #555555;
-    background-color: #fff;
+    background-color: #ffffff;
     background-image: none;
     border: 1px solid #e8e8e8;
     border-radius: 0; }
@@ -8016,7 +8031,7 @@ u {
     color: #898989; }
 
   .path-webform .send-button {
-    color: #fff;
+    color: #ffffff;
     background-color: #bf5829;
     border-color: #bf5829;
     border-radius: 0px;
