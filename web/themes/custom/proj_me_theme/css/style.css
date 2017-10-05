@@ -6768,13 +6768,13 @@ u {
   background-color: #bf5829;
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 15px 65px;
   font-family: "Trebuchet MS"; }
 
 .block-views-blockview-portfolio-block-1 .more-link a:hover {
   background-color: rgba(17, 12, 40, 0.9);
-  transition: background-color 0.5s ease;
-  text-decoration: none; }
+  transition: background-color 0.5s ease; }
 
 .block-views-blockview-portfolio-block-1 .more-link a:visited {
   text-decoration: none; }
@@ -6886,6 +6886,7 @@ u {
   background-color: #bf5829;
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
   margin-top: 0px;
   margin-right: 25px;
   margin-bottom: 0px;
@@ -6896,6 +6897,15 @@ u {
   padding-left: 50px;
   font-family: "Trebuchet MS";
   font-size: 16px; }
+
+/*
+tried doing the button this way andd didn't work, need to research why
+<button class ="lets-build" type="button" onclick="/web/form/contact-me">Let\'s build something awesome</button>
+*/
+#block-calltoactionblock .lets-build:hover {
+  background-color: rgba(17, 12, 40, 0.9);
+  transition: background-color 0.5s ease;
+  text-decoration: none; }
 
 #block-debugacademyblock {
   text-align: center;
@@ -8039,5 +8049,9 @@ u {
     font-family: "Trebuchet MS";
     text-transform: uppercase;
     margin: 10px 0 0 0; } }
+#map {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

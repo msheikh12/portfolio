@@ -19,7 +19,7 @@ class CallToAction extends BlockBase {
    */
   public function build() {
     $build = [];
-     $build['call_to_action_block']['#markup'] = '<p> Interested in working together? <span class = "lets-build"> Let\'s build something awesome </span> </p>';
+     $build['call_to_action_block']['#markup'] = '<p> Interested in working together? <a class="lets-build" href="/web/form/contact-me" role="button">Let\'s build something awesome</a> </p>';
 
     return $build;
   }

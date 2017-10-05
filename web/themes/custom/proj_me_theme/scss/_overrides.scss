@@ -588,6 +588,7 @@ u {
   background-color: $base-orange;
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 15px 65px;
   font-family: $base-font;
 }
@@ -595,7 +596,7 @@ u {
 .block-views-blockview-portfolio-block-1 .more-link a:hover {
   background-color: rgba(17, 12, 40, 0.9);
   transition: background-color 0.5s ease;
-  text-decoration: none;
+  
 }
 
 .block-views-blockview-portfolio-block-1 .more-link a:visited {
@@ -746,6 +747,7 @@ u {
   background-color: $base-orange;
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
 
   margin : {
     top: 0px;
@@ -765,6 +767,17 @@ u {
     family: $base-font;
     size: 16px;
   }
+}
+
+/*
+tried doing the button this way andd didn't work, need to research why
+<button class ="lets-build" type="button" onclick="/web/form/contact-me">Let\'s build something awesome</button>
+*/
+
+#block-calltoactionblock .lets-build:hover {
+  background-color: rgba(17, 12, 40, 0.9);
+  transition: background-color 0.5s ease;
+  text-decoration: none;
 }
  
 
@@ -2191,3 +2204,9 @@ u {
   }
 
 }
+
+      #map {
+        height: 500px;
+        width: 90%;
+        margin: 0 auto;
+       }
