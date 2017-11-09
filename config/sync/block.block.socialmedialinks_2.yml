@@ -39,15 +39,11 @@ settings:
       description: ''
       weight: '-6'
     facebook:
-      value: '#'
+      value: ''
       description: ''
       weight: '-5'
-    twitter:
-      value: '#'
-      description: ''
-      weight: '-4'
     github:
-      value: ''
+      value: msheikh12
       description: ''
       weight: '-3'
     googleplus:
@@ -59,7 +55,7 @@ settings:
       description: ''
       weight: '-1'
     linkedin:
-      value: '#'
+      value: in/mohamed-sheikh-3ab3582b/
       description: ''
       weight: '0'
     pinterest:
@@ -78,6 +74,10 @@ settings:
       value: ''
       description: ''
       weight: '4'
+    twitter:
+      value: '#'
+      description: ''
+      weight: '-4'
     vimeo:
       value: ''
       description: ''

@@ -1,0 +1,22 @@
+uuid: 24c41b7f-3bb4-415e-b5ef-d9f88104522d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.map_marker
+  module:
+    - text
+id: node.map_marker.body
+field_name: body
+entity_type: node
+bundle: map_marker
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

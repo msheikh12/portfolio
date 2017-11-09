@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains peets_coffee.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function peets_coffee_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the peets_coffee module.
+    case 'help.page.peets_coffee':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('show peets coffee locations.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,19 @@
+uuid: 1fb7cdbb-2258-4a0b-acec-30004fbce2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gmap
+    - node.type.map_marker
+id: node.map_marker.field_gmap
+field_name: field_gmap
+entity_type: node
+bundle: map_marker
+label: Gmap
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

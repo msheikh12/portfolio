@@ -1,0 +1,73 @@
+uuid: 83e487f4-420f-4634-a4fa-290a3a3c4592
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.map_marker.body
+    - field.field.node.map_marker.field_gmap
+    - field.field.node.map_marker.field_latitude
+    - field.field.node.map_marker.field_longitude
+    - node.type.map_marker
+  module:
+    - simple_gmap
+    - text
+    - user
+id: node.map_marker.default
+targetEntityType: node
+bundle: map_marker
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gmap:
+    weight: 104
+    label: above
+    settings:
+      include_map: true
+      apikey: AIzaSyBphSbI0UdvUIQhZEfzTqtUiFq4LPtu7Hw
+      iframe_width: '500'
+      iframe_height: '500'
+      static_scale: 1
+      include_link: true
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_text: false
+    third_party_settings: {  }
+    type: simple_gmap
+    region: content
+  field_latitude:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 5
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_longitude:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 5
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
