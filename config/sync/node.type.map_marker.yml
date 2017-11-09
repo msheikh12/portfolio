@@ -1,0 +1,18 @@
+uuid: f4151bde-17b5-4855-8786-d10df7fbb6e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Map Marker'
+type: map_marker
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

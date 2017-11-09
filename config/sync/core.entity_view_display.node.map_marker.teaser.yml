@@ -1,0 +1,28 @@
+uuid: d279b2c8-e8ec-4f80-82c8-f795ed508a3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.map_marker.body
+    - node.type.map_marker
+  module:
+    - text
+    - user
+id: node.map_marker.teaser
+targetEntityType: node
+bundle: map_marker
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
