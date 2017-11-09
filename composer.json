@@ -31,7 +31,8 @@
         "drupal/bootstrap_layouts": "^4.1",
         "drupal/page_manager": "^4.0@beta",
         "drupal/social_media": "^1.0",
-        "drupal/simple_gmap": "^1.4"
+        "drupal/simple_gmap": "^1.4",
+        "drupal/pathauto": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
