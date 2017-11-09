@@ -1,0 +1,7 @@
+peets_coffee.peetscoffee:
+  path: '/peetscoffee' #specify the path that this page can be accessed at
+  defaults:
+    _controller: '\Drupal\peets_coffee\Controller\LocatingPageController::content' #specify a static function which provides this page's content
+    _title: 'Peets Coffee' #specify the title of this page (or a static function providiing the title)
+  requirements: 
+    _permission: 'access content'

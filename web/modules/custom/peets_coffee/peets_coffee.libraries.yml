@@ -1,0 +1,5 @@
+peets-map:
+  version: 1.x
+  js:
+    js/peets-map.js: {}
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyBZZQ-dUTMahXe9YptcAZCvlP7TLWmfBv0&callback=initMap : { type: external, attributes: { defer: true, async: true } }

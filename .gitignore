@@ -21,3 +21,9 @@
 /.idea/
 
 .DS_Store
+
+# From eclipse
+.buildpath
+.project
+.settings/
+web/error_log

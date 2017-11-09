@@ -1,0 +1,5 @@
+name: Peets Coffee
+type: module
+description: show peets coffee locations.
+core: 8.x
+package: Custom
